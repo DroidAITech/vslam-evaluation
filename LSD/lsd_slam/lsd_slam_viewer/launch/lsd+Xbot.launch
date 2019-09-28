@@ -1,0 +1,7 @@
+<launch>
+  
+    
+    <node name="lsd_slam_live" pkg="lsd_slam_core" type="live_slam" output="screen" args="/image:=/camera/rgb/image_raw  /camera_info:=/camera/rgb/camera_info" />
+    <node name="lsd_slam_viewer" pkg="lsd_slam_viewer" type="viewer" output="screen" launch-prefix="gnome-terminal -e"/>
+    
+</launch>

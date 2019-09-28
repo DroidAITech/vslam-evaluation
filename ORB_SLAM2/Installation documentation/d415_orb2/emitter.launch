@@ -1,0 +1,4 @@
+<launch>
+
+<node pkg="dynamic_reconfigure" type="dynparam" name="disable_emitter" args="load /camera/stereo_module $(find d415_orb)/yaml/emitter.yaml"/>
+</launch>

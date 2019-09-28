@@ -1,0 +1,9 @@
+## SVO算法安装、测试、运行仓库
+### 包含内容
+- SVO算法理论分析
+- SVO安装与测试
+- SVO使用自己的摄像头
+- SVO部署到Xbot
+- 部署SVO脚本Install_SVO.sh
+- 部署SVO+USB脚本Start_SVO+USB.sh
+- 部署SVO+Xbot脚本Install_SVO+Xbot.sh
